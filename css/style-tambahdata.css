@@ -1,0 +1,105 @@
+
+html,
+body {
+    overflow: hidden;
+    /* Menghilangkan scroll pada halaman utama */
+    height: 100%;
+}
+
+.sidebar {
+    background-color: #DA11FB;
+}
+
+.logo {
+    width: 110px;
+    height: auto;
+    margin: 0;
+    margin-left: -10px;
+}
+
+.text-logo h2 {
+    font-size: 20px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.text-logo h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.nav {
+    font-size: 20px;
+}
+
+.nav-item {
+    padding-top: 15px;
+}
+
+.nav-link img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    margin-left: 4px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #d9d9d9;
+    border-radius: 25px;
+}
+
+ul {
+    margin: 0;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+
+.form-left .form-group, .form-right .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-left .form-group label, .form-right .form-group label {
+    flex: 0 0 70px; /* Lebar label lebih kecil */
+    margin-bottom: 0;
+    margin-right: 5px; /* Mengurangi jarak antara label dan input */
+}
+
+.form-left .form-control, .form-right .form-control {
+    flex: 1;
+    background-color: #D9D9D9;
+    width: 100%;
+}
+
+.form-control {
+    max-width: 70%; /* Mengurangi panjang input dari sebelah kanan */
+    height: 50px;
+}
+
+.btn-primary {
+    background-color: #15F46F;
+    border-color: #15F46F;
+    width: 230px;
+    height: 50px;
+    margin-left: 75px;
+    margin-right: 55px;
+}
+
+.btn-secondary {
+    background-color: #FF0C0C;
+    border-color: #FF0C0C;
+    width: 230px;
+    height: 50px;
+}
+
+thead {
+    background-color: #DA11FB;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #D9D9D9;
+}
